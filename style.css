@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* GENEL DUZEN */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #1c1c1c;
+}
+
+.container {
+  margin-top: 40px;
+  margin-right: 60px;
+  display: flex;
+	justify-content: center;
+}
+
+.login-screen {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: auto;
+}
+
+/* LOGIN FORM */
+/* TITLE */
+.login-screen h1 {
+  font-family: 'Smooch Sans';
+  font-size: 170px;
+  height: 170px;
+}
+
+.login-screen p {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+/* FORM */
+.login-screen input {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  &:hover {
+    background-color: lightgray;
+  }
+}
+
+/* FORM ICONLARI */
+input.username {
+  padding-left: 40px;
+  background: url("images/username.png") no-repeat 10px;
+  background-color: #f2f2f2;
+}
+
+input.password {
+  padding-left: 40px;
+  background: url("images/password.png") no-repeat 10px;
+  background-color: #f2f2f2;
+}
+
+/* NEXT BUTTON */
+.container .next{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #1c1c1c;
+  border: none;
+  border-radius: 15px;
+  &:active,&:hover {
+		background-color: #303030;
+	}
+}
+
+/* LOGIN WITH OTHERS */
+.line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+}
+
+.line-hr {
+	padding: 1px;
+	width: 30%;
+	background-color: #F0EDFF;
+  margin-top: -30px;
+}
+
+/* GOOGLE & FACEBOOK BUTTON */
+.container .google-facebook {
+  font-size: 20px;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  gap: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  &:active,&:hover {
+		background-color: lightgray;
+	}
+}
+.container .google-facebook p {
+  gap: 50px;
+}
+
+
+/* LOGIN IMAGE */
+.login-image {
+  max-width: 90vh;
+  border-radius: 40px;
+}
+
+/* FLOWER */
+.flower {
+  position: absolute;
+  top: 75vh;
+  left: 0px;
+}
+
